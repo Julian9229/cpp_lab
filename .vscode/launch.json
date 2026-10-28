@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug C++",
+      "type": "gdb",
+      "request": "launch",
+      "target": "${fileDirname}/${fileBasenameNoExtension}",
+      "cwd": "${fileDirname}",
+      "arguments": "",
+      "gdbpath": "/usr/bin/gdb",
+      "stopAtEntry": false,
+      "valuesFormatting": "prettyPrinters",
+      "preLaunchTask": "C/C++: g++ build current file"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+*
+!*/
+!*.cpp
+!*.h
+!*.docx
+!.gitignore
+!.clangd
+!compile_flags.txt
+!.vscode/
+!.vscode/**
+
+.venv_zvit/
+.venv/
+venv/
